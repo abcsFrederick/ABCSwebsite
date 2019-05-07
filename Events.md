@@ -14,7 +14,7 @@
                 </li>
             {% else %}
                 <li>
-                    <a href="{{ post.url }}">{{ post.date | date: "%-d %B %Y"}}, {{ post.series }}: {{ post.title }}</a>
+                    <a href="{{ post.url }}">{{post.day}} {{ post.date | date: "%B %Y"}}, {{ post.series }}: {{ post.title }}</a>
                 </li>
             {% endif %}
         {% endif %}

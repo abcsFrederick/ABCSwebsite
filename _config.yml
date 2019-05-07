@@ -4,3 +4,5 @@ future: true
 url: https://abcsFrederick.info
 baseurl: ""
 github: [metadata]
+
+permalink: /:categories/:year/:month/:title:output_ext
