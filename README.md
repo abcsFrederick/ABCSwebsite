@@ -4,4 +4,4 @@ The Advanced Biomedical Computational Science (ABCS) group is a part of the Biom
 
 ABCS provides bioinformatics, mathematical simulation and modeling, image analysis and visualization, nanoinformatics, proteomic analysis, data integration support for scientific projects through database maintenance and development, and scientific web application development.
 
-![ABCS Graphic](assets/images/ABCSgraphic.pdf)
+![ABCS Graphic](assets/images/ABCSgraphic.png)
