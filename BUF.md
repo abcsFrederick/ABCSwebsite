@@ -18,7 +18,7 @@ Check out our [Statistics for Lunch](Stats4Lunch) and [Programmer's Corner](Prog
         {% capture posttime %}{{ post.date | date: '%s' }}{% endcapture %}
         {% if posttime > nowunix %}
             <li>
-                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%-d %B %Y"}}, {{ post.title }}</a>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{post.day}} {{ post.date | date: "%B %Y"}}, {{ post.title }}</a>
             </li>
         {% endif %}
     {% endunless %}

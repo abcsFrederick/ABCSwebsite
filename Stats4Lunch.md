@@ -11,7 +11,7 @@ Statistics for Lunch is a series sponsored by the [Bioinformatics User Forum](BU
         {% capture posttime %}{{ post.date | date: '%s' }}{% endcapture %}
         {% if posttime > nowunix %}
             <li>
-                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%-d %B %Y"}}, {{ post.title }}</a>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{post.day}} {{ post.date | date: "%B %Y"}}, {{ post.title }}</a>
             </li>
         {% endif %}
     {% endif %}

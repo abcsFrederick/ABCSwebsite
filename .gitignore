@@ -10,3 +10,4 @@ fullcalendar/*
 .Rproj.user/
 *.Rproj
 .Rproj.user
+*.pem
