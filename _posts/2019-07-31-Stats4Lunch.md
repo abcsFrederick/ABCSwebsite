@@ -12,4 +12,7 @@ project: statistics4lunch
 videoId: 1907
 ---
 
-Dr Brian Luke will be presenting an introduction to hypothesis testing at this seminar.
+### A Gentle Introduction to Hypothesis Testing
+
+I toss a coin 10 times and get 8 Heads and only 2 Tails.  Has the coin been tampered with so that it is more likely to come up heads?
+Hypothesis testing is concerned with estimating the likelihood that an observed result could have come from an assumption of reality, known as the Null Hypothesis.  We like to refer to this likelihood as a test statistic, which is based on the probability of observing one or more events.  This talk will start with simple examples of the Null Hypothesis and will then discuss basic probability theory.  From there, introductory statistics is presented along with examples and the talk concludes by showing how the Central Limit Theorem is the key to determining the p-value for any one-sample test.
